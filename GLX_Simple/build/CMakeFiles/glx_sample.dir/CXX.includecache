@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abdellah/Software/OpenGL/GLX_Simple/GLX_Sample.cpp
+stdio.h
+-
+stdlib.h
+-
+GL/glx.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+

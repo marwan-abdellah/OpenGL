@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o  -o basic_collision -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abdellah/Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx
+X11/X.h
+-
+X11/Xutil.h
+-
+X11/keysym.h
+-
+math.h
+-
+sys/timeb.h
+-
+iostream
+-
+cstdlib
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+GL/glx.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+

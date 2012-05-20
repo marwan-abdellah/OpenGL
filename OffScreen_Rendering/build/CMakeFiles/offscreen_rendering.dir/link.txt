@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o  -o offscreen_rendering -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi 

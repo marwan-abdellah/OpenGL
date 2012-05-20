@@ -1,0 +1,1 @@
+/home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles/sdl_brite_sprite.dir
