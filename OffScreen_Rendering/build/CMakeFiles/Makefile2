@@ -38,53 +38,56 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering
+CMAKE_SOURCE_DIR = /Software/OpenGL/OffScreen_Rendering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering/build
+CMAKE_BINARY_DIR = /Software/OpenGL/OffScreen_Rendering/Build
 
 #=============================================================================
-# Target rules for target CMakeFiles/offscreen_rendering.dir
+# Target rules for target CMakeFiles/OFFScreen_Rendering.dir
 
 # All Build rule for target.
-CMakeFiles/offscreen_rendering.dir/all:
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/depend
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles  1
-	@echo "Built target offscreen_rendering"
-.PHONY : CMakeFiles/offscreen_rendering.dir/all
+CMakeFiles/OFFScreen_Rendering.dir/all:
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/depend
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles  1
+	@echo "Built target OFFScreen_Rendering"
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/all
 
 # Include target in all.
-all: CMakeFiles/offscreen_rendering.dir/all
+all: CMakeFiles/OFFScreen_Rendering.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/offscreen_rendering.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offscreen_rendering.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles 0
-.PHONY : CMakeFiles/offscreen_rendering.dir/rule
+CMakeFiles/OFFScreen_Rendering.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OFFScreen_Rendering.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles 0
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/rule
 
 # Convenience name for target.
-offscreen_rendering: CMakeFiles/offscreen_rendering.dir/rule
-.PHONY : offscreen_rendering
+OFFScreen_Rendering: CMakeFiles/OFFScreen_Rendering.dir/rule
+.PHONY : OFFScreen_Rendering
 
 # clean rule for target.
-CMakeFiles/offscreen_rendering.dir/clean:
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/clean
-.PHONY : CMakeFiles/offscreen_rendering.dir/clean
+CMakeFiles/OFFScreen_Rendering.dir/clean:
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/clean
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/offscreen_rendering.dir/clean
+clean: CMakeFiles/OFFScreen_Rendering.dir/clean
 .PHONY : clean
 
 #=============================================================================

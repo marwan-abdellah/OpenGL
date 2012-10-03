@@ -38,53 +38,56 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/GLX_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/GLX_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLX_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/GLX_Simple/Build
 
 #=============================================================================
-# Target rules for target CMakeFiles/glx_sample.dir
+# Target rules for target CMakeFiles/GLS_Sample.dir
 
 # All Build rule for target.
-CMakeFiles/glx_sample.dir/all:
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/depend
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles  1
-	@echo "Built target glx_sample"
-.PHONY : CMakeFiles/glx_sample.dir/all
+CMakeFiles/GLS_Sample.dir/all:
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/depend
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/GLX_Simple/Build/CMakeFiles  1
+	@echo "Built target GLS_Sample"
+.PHONY : CMakeFiles/GLS_Sample.dir/all
 
 # Include target in all.
-all: CMakeFiles/glx_sample.dir/all
+all: CMakeFiles/GLS_Sample.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/glx_sample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/glx_sample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles 0
-.PHONY : CMakeFiles/glx_sample.dir/rule
+CMakeFiles/GLS_Sample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLX_Simple/Build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GLS_Sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLX_Simple/Build/CMakeFiles 0
+.PHONY : CMakeFiles/GLS_Sample.dir/rule
 
 # Convenience name for target.
-glx_sample: CMakeFiles/glx_sample.dir/rule
-.PHONY : glx_sample
+GLS_Sample: CMakeFiles/GLS_Sample.dir/rule
+.PHONY : GLS_Sample
 
 # clean rule for target.
-CMakeFiles/glx_sample.dir/clean:
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/clean
-.PHONY : CMakeFiles/glx_sample.dir/clean
+CMakeFiles/GLS_Sample.dir/clean:
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/clean
+.PHONY : CMakeFiles/GLS_Sample.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/glx_sample.dir/clean
+clean: CMakeFiles/GLS_Sample.dir/clean
 .PHONY : clean
 
 #=============================================================================

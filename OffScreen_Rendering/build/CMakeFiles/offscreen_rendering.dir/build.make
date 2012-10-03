@@ -26,86 +26,82 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering
+CMAKE_SOURCE_DIR = /Software/OpenGL/OffScreen_Rendering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering/build
+CMAKE_BINARY_DIR = /Software/OpenGL/OffScreen_Rendering/Build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/offscreen_rendering.dir/depend.make
+include CMakeFiles/OFFScreen_Rendering.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/offscreen_rendering.dir/progress.make
+include CMakeFiles/OFFScreen_Rendering.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/offscreen_rendering.dir/flags.make
+include CMakeFiles/OFFScreen_Rendering.dir/flags.make
 
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o: CMakeFiles/offscreen_rendering.dir/flags.make
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o: ../OffScreen_Rendering.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o -c /home/abdellah/Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o: CMakeFiles/OFFScreen_Rendering.dir/flags.make
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o: ../OffScreen_Rendering.cxx
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o -c /Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx
 
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abdellah/Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx > CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.i
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx > CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.i
 
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abdellah/Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx -o CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.s
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Software/OpenGL/OffScreen_Rendering/OffScreen_Rendering.cxx -o CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.s
 
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.requires:
-.PHONY : CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.requires
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.requires:
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.requires
 
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.provides: CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.requires
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.provides.build
-.PHONY : CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.provides
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.provides: CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.requires
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.provides.build
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.provides
 
-CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.provides.build: CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o
+CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.provides.build: CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o
 
-# Object files for target offscreen_rendering
-offscreen_rendering_OBJECTS = \
-"CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o"
+# Object files for target OFFScreen_Rendering
+OFFScreen_Rendering_OBJECTS = \
+"CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o"
 
-# External object files for target offscreen_rendering
-offscreen_rendering_EXTERNAL_OBJECTS =
+# External object files for target OFFScreen_Rendering
+OFFScreen_Rendering_EXTERNAL_OBJECTS =
 
-offscreen_rendering: CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libGLU.so
-offscreen_rendering: /usr/lib/libGL.so
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libSM.so
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libICE.so
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libX11.so
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libXext.so
-offscreen_rendering: /usr/lib/libglut.so
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libXmu.so
-offscreen_rendering: /usr/lib/x86_64-linux-gnu/libXi.so
-offscreen_rendering: CMakeFiles/offscreen_rendering.dir/build.make
-offscreen_rendering: CMakeFiles/offscreen_rendering.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable offscreen_rendering"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/offscreen_rendering.dir/link.txt --verbose=$(VERBOSE)
+OFFScreen_Rendering: CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o
+OFFScreen_Rendering: CMakeFiles/OFFScreen_Rendering.dir/build.make
+OFFScreen_Rendering: /opt/local/lib/libSDLmain.a
+OFFScreen_Rendering: /opt/local/lib/libSDL.dylib
+OFFScreen_Rendering: CMakeFiles/OFFScreen_Rendering.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable OFFScreen_Rendering"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OFFScreen_Rendering.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/offscreen_rendering.dir/build: offscreen_rendering
-.PHONY : CMakeFiles/offscreen_rendering.dir/build
+CMakeFiles/OFFScreen_Rendering.dir/build: OFFScreen_Rendering
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/build
 
-CMakeFiles/offscreen_rendering.dir/requires: CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o.requires
-.PHONY : CMakeFiles/offscreen_rendering.dir/requires
+CMakeFiles/OFFScreen_Rendering.dir/requires: CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o.requires
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/requires
 
-CMakeFiles/offscreen_rendering.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/offscreen_rendering.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/offscreen_rendering.dir/clean
+CMakeFiles/OFFScreen_Rendering.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/OFFScreen_Rendering.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/clean
 
-CMakeFiles/offscreen_rendering.dir/depend:
-	cd /home/abdellah/Software/OpenGL/OffScreen_Rendering/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdellah/Software/OpenGL/OffScreen_Rendering /home/abdellah/Software/OpenGL/OffScreen_Rendering /home/abdellah/Software/OpenGL/OffScreen_Rendering/build /home/abdellah/Software/OpenGL/OffScreen_Rendering/build /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles/offscreen_rendering.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/offscreen_rendering.dir/depend
+CMakeFiles/OFFScreen_Rendering.dir/depend:
+	cd /Software/OpenGL/OffScreen_Rendering/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Software/OpenGL/OffScreen_Rendering /Software/OpenGL/OffScreen_Rendering /Software/OpenGL/OffScreen_Rendering/Build /Software/OpenGL/OffScreen_Rendering/Build /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles/OFFScreen_Rendering.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/OFFScreen_Rendering.dir/depend
 

@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles/glx_sample.dir
+/Software/OpenGL/GLX_Simple/Build/CMakeFiles/GLS_Sample.dir

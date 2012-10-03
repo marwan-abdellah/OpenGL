@@ -30,19 +30,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/GLX_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/GLX_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLX_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/GLX_Simple/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLX_Simple/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +63,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles /home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLX_Simple/Build/CMakeFiles /Software/OpenGL/GLX_Simple/Build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLX_Simple/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLX_Simple/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named glx_sample
+# Target rules for targets named GLS_Sample
 
 # Build rule for target.
-glx_sample: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glx_sample
-.PHONY : glx_sample
+GLS_Sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLS_Sample
+.PHONY : GLS_Sample
 
 # fast build rule for target.
-glx_sample/fast:
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/build
-.PHONY : glx_sample/fast
+GLS_Sample/fast:
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/build
+.PHONY : GLS_Sample/fast
 
 GLX_Sample.o: GLX_Sample.cpp.o
 .PHONY : GLX_Sample.o
 
 # target to build an object file
 GLX_Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/GLX_Sample.cpp.o
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/GLX_Sample.cpp.o
 .PHONY : GLX_Sample.cpp.o
 
 GLX_Sample.i: GLX_Sample.cpp.i
@@ -124,7 +127,7 @@ GLX_Sample.i: GLX_Sample.cpp.i
 
 # target to preprocess a source file
 GLX_Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/GLX_Sample.cpp.i
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/GLX_Sample.cpp.i
 .PHONY : GLX_Sample.cpp.i
 
 GLX_Sample.s: GLX_Sample.cpp.s
@@ -132,7 +135,7 @@ GLX_Sample.s: GLX_Sample.cpp.s
 
 # target to generate assembly for a file
 GLX_Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/glx_sample.dir/build.make CMakeFiles/glx_sample.dir/GLX_Sample.cpp.s
+	$(MAKE) -f CMakeFiles/GLS_Sample.dir/build.make CMakeFiles/GLS_Sample.dir/GLX_Sample.cpp.s
 .PHONY : GLX_Sample.cpp.s
 
 # Help Target
@@ -141,8 +144,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... GLS_Sample"
 	@echo "... edit_cache"
-	@echo "... glx_sample"
 	@echo "... rebuild_cache"
 	@echo "... GLX_Sample.o"
 	@echo "... GLX_Sample.i"

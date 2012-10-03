@@ -38,53 +38,56 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/SDL_Brite_Sprite
+CMAKE_SOURCE_DIR = /Software/OpenGL/SDL_Blit_Sprite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build
+CMAKE_BINARY_DIR = /Software/OpenGL/SDL_Blit_Sprite/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/sdl_brite_sprite.dir
+# Target rules for target CMakeFiles/SDL_Sprite.dir
 
 # All Build rule for target.
-CMakeFiles/sdl_brite_sprite.dir/all:
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/depend
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles  1
-	@echo "Built target sdl_brite_sprite"
-.PHONY : CMakeFiles/sdl_brite_sprite.dir/all
+CMakeFiles/SDL_Sprite.dir/all:
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/depend
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles  1
+	@echo "Built target SDL_Sprite"
+.PHONY : CMakeFiles/SDL_Sprite.dir/all
 
 # Include target in all.
-all: CMakeFiles/sdl_brite_sprite.dir/all
+all: CMakeFiles/SDL_Sprite.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sdl_brite_sprite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sdl_brite_sprite.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles 0
-.PHONY : CMakeFiles/sdl_brite_sprite.dir/rule
+CMakeFiles/SDL_Sprite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SDL_Sprite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles 0
+.PHONY : CMakeFiles/SDL_Sprite.dir/rule
 
 # Convenience name for target.
-sdl_brite_sprite: CMakeFiles/sdl_brite_sprite.dir/rule
-.PHONY : sdl_brite_sprite
+SDL_Sprite: CMakeFiles/SDL_Sprite.dir/rule
+.PHONY : SDL_Sprite
 
 # clean rule for target.
-CMakeFiles/sdl_brite_sprite.dir/clean:
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/clean
-.PHONY : CMakeFiles/sdl_brite_sprite.dir/clean
+CMakeFiles/SDL_Sprite.dir/clean:
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/clean
+.PHONY : CMakeFiles/SDL_Sprite.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/sdl_brite_sprite.dir/clean
+clean: CMakeFiles/SDL_Sprite.dir/clean
 .PHONY : clean
 
 #=============================================================================

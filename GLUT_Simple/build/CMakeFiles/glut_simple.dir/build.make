@@ -26,88 +26,82 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/GLUT_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/GLUT_Simple/Build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/glut_simple.dir/depend.make
+include CMakeFiles/GLUT_Simple.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/glut_simple.dir/progress.make
+include CMakeFiles/GLUT_Simple.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/glut_simple.dir/flags.make
+include CMakeFiles/GLUT_Simple.dir/flags.make
 
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o: CMakeFiles/glut_simple.dir/flags.make
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o: ../GLUT_Simple.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o -c /home/abdellah/Software/OpenGL/GLUT_Simple/GLUT_Simple.cpp
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o: CMakeFiles/GLUT_Simple.dir/flags.make
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o: ../GLUT_Simple.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/GLUT_Simple/Build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o -c /Software/OpenGL/GLUT_Simple/GLUT_Simple.cpp
 
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abdellah/Software/OpenGL/GLUT_Simple/GLUT_Simple.cpp > CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.i
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Software/OpenGL/GLUT_Simple/GLUT_Simple.cpp > CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.i
 
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abdellah/Software/OpenGL/GLUT_Simple/GLUT_Simple.cpp -o CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.s
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Software/OpenGL/GLUT_Simple/GLUT_Simple.cpp -o CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.s
 
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.requires:
-.PHONY : CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.requires
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.requires:
+.PHONY : CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.requires
 
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.provides: CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.requires
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.provides.build
-.PHONY : CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.provides
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.provides: CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.requires
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.provides.build
+.PHONY : CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.provides
 
-CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.provides.build: CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o
+CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.provides.build: CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o
 
-# Object files for target glut_simple
-glut_simple_OBJECTS = \
-"CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o"
+# Object files for target GLUT_Simple
+GLUT_Simple_OBJECTS = \
+"CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o"
 
-# External object files for target glut_simple
-glut_simple_EXTERNAL_OBJECTS =
+# External object files for target GLUT_Simple
+GLUT_Simple_EXTERNAL_OBJECTS =
 
-glut_simple: CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o
-glut_simple: /usr/lib/x86_64-linux-gnu/libGLU.so
-glut_simple: /usr/lib/libGL.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libSM.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libICE.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libX11.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libXext.so
-glut_simple: /usr/lib/libglut.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libXmu.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libXi.so
-glut_simple: /usr/lib/x86_64-linux-gnu/libSDLmain.a
-glut_simple: /usr/lib/x86_64-linux-gnu/libSDL.so
-glut_simple: CMakeFiles/glut_simple.dir/build.make
-glut_simple: CMakeFiles/glut_simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable glut_simple"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glut_simple.dir/link.txt --verbose=$(VERBOSE)
+GLUT_Simple: CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o
+GLUT_Simple: CMakeFiles/GLUT_Simple.dir/build.make
+GLUT_Simple: /opt/local/lib/libSDLmain.a
+GLUT_Simple: /opt/local/lib/libSDL.dylib
+GLUT_Simple: CMakeFiles/GLUT_Simple.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable GLUT_Simple"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLUT_Simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/glut_simple.dir/build: glut_simple
-.PHONY : CMakeFiles/glut_simple.dir/build
+CMakeFiles/GLUT_Simple.dir/build: GLUT_Simple
+.PHONY : CMakeFiles/GLUT_Simple.dir/build
 
-CMakeFiles/glut_simple.dir/requires: CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o.requires
-.PHONY : CMakeFiles/glut_simple.dir/requires
+CMakeFiles/GLUT_Simple.dir/requires: CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o.requires
+.PHONY : CMakeFiles/GLUT_Simple.dir/requires
 
-CMakeFiles/glut_simple.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/glut_simple.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/glut_simple.dir/clean
+CMakeFiles/GLUT_Simple.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/GLUT_Simple.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/GLUT_Simple.dir/clean
 
-CMakeFiles/glut_simple.dir/depend:
-	cd /home/abdellah/Software/OpenGL/GLUT_Simple/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdellah/Software/OpenGL/GLUT_Simple /home/abdellah/Software/OpenGL/GLUT_Simple /home/abdellah/Software/OpenGL/GLUT_Simple/build /home/abdellah/Software/OpenGL/GLUT_Simple/build /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles/glut_simple.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/glut_simple.dir/depend
+CMakeFiles/GLUT_Simple.dir/depend:
+	cd /Software/OpenGL/GLUT_Simple/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Software/OpenGL/GLUT_Simple /Software/OpenGL/GLUT_Simple /Software/OpenGL/GLUT_Simple/Build /Software/OpenGL/GLUT_Simple/Build /Software/OpenGL/GLUT_Simple/Build/CMakeFiles/GLUT_Simple.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/GLUT_Simple.dir/depend
 

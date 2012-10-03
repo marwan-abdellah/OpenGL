@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o  -o glut_simple -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread 
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o  -o GLUT_Simple  -L/usr/X11R6/lib -lGL -lX11 -lGLU -lglut /opt/local/lib/libSDLmain.a /opt/local/lib/libSDL.dylib -framework Cocoa 

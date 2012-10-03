@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/sdl_mouse.dir/SDL_Mouse.cxx.o  -o sdl_mouse -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread 
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/SDL_Mouse.dir/SDL_Mouse.cxx.o  -o SDL_Mouse  -L/usr/X11R6/lib -lGL -lX11 -lGLU -lglut /opt/local/lib/libSDLmain.a /opt/local/lib/libSDL.dylib -framework Cocoa 

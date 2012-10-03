@@ -38,53 +38,56 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/Sprite_Overlay
+CMAKE_SOURCE_DIR = /Software/OpenGL/Sprite_Overlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Sprite_Overlay/build
+CMAKE_BINARY_DIR = /Software/OpenGL/Sprite_Overlay/Build
 
 #=============================================================================
-# Target rules for target CMakeFiles/sprite_overlay.dir
+# Target rules for target CMakeFiles/SpriteOverlay.dir
 
 # All Build rule for target.
-CMakeFiles/sprite_overlay.dir/all:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/depend
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles  1 2
-	@echo "Built target sprite_overlay"
-.PHONY : CMakeFiles/sprite_overlay.dir/all
+CMakeFiles/SpriteOverlay.dir/all:
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/depend
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/Sprite_Overlay/Build/CMakeFiles  1 2
+	@echo "Built target SpriteOverlay"
+.PHONY : CMakeFiles/SpriteOverlay.dir/all
 
 # Include target in all.
-all: CMakeFiles/sprite_overlay.dir/all
+all: CMakeFiles/SpriteOverlay.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sprite_overlay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sprite_overlay.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles 0
-.PHONY : CMakeFiles/sprite_overlay.dir/rule
+CMakeFiles/SpriteOverlay.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Sprite_Overlay/Build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SpriteOverlay.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Sprite_Overlay/Build/CMakeFiles 0
+.PHONY : CMakeFiles/SpriteOverlay.dir/rule
 
 # Convenience name for target.
-sprite_overlay: CMakeFiles/sprite_overlay.dir/rule
-.PHONY : sprite_overlay
+SpriteOverlay: CMakeFiles/SpriteOverlay.dir/rule
+.PHONY : SpriteOverlay
 
 # clean rule for target.
-CMakeFiles/sprite_overlay.dir/clean:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/clean
-.PHONY : CMakeFiles/sprite_overlay.dir/clean
+CMakeFiles/SpriteOverlay.dir/clean:
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/clean
+.PHONY : CMakeFiles/SpriteOverlay.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/sprite_overlay.dir/clean
+clean: CMakeFiles/SpriteOverlay.dir/clean
 .PHONY : clean
 
 #=============================================================================

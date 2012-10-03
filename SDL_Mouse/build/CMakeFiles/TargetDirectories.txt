@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/SDL_Mouse/build/CMakeFiles/sdl_mouse.dir
+/Software/OpenGL/SDL_Mouse/Build/CMakeFiles/SDL_Mouse.dir

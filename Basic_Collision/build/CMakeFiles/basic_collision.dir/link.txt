@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o  -o basic_collision -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread 
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o  -o basic_collision  -L/usr/X11R6/lib -lGL -lX11 -lGLU -lglut 

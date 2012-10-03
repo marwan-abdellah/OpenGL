@@ -26,88 +26,82 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/Benchmark_Sphere
+CMAKE_SOURCE_DIR = /Software/OpenGL/Benchmark_Sphere
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Benchmark_Sphere/build
+CMAKE_BINARY_DIR = /Software/OpenGL/Benchmark_Sphere/Build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/benchmark_sphere.dir/depend.make
+include CMakeFiles/Benchmark_Sphere.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/benchmark_sphere.dir/progress.make
+include CMakeFiles/Benchmark_Sphere.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/benchmark_sphere.dir/flags.make
+include CMakeFiles/Benchmark_Sphere.dir/flags.make
 
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o: CMakeFiles/benchmark_sphere.dir/flags.make
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o: ../Benchmark_Sphere.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/Benchmark_Sphere/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o -c /home/abdellah/Software/OpenGL/Benchmark_Sphere/Benchmark_Sphere.cpp
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o: CMakeFiles/Benchmark_Sphere.dir/flags.make
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o: ../Benchmark_Sphere.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/Benchmark_Sphere/Build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o -c /Software/OpenGL/Benchmark_Sphere/Benchmark_Sphere.cpp
 
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abdellah/Software/OpenGL/Benchmark_Sphere/Benchmark_Sphere.cpp > CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.i
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Software/OpenGL/Benchmark_Sphere/Benchmark_Sphere.cpp > CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.i
 
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abdellah/Software/OpenGL/Benchmark_Sphere/Benchmark_Sphere.cpp -o CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.s
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Software/OpenGL/Benchmark_Sphere/Benchmark_Sphere.cpp -o CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.s
 
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.requires:
-.PHONY : CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.requires
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.requires:
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.requires
 
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.provides: CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.requires
-	$(MAKE) -f CMakeFiles/benchmark_sphere.dir/build.make CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.provides.build
-.PHONY : CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.provides
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.provides: CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Benchmark_Sphere.dir/build.make CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.provides.build
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.provides
 
-CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.provides.build: CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o
+CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.provides.build: CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o
 
-# Object files for target benchmark_sphere
-benchmark_sphere_OBJECTS = \
-"CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o"
+# Object files for target Benchmark_Sphere
+Benchmark_Sphere_OBJECTS = \
+"CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o"
 
-# External object files for target benchmark_sphere
-benchmark_sphere_EXTERNAL_OBJECTS =
+# External object files for target Benchmark_Sphere
+Benchmark_Sphere_EXTERNAL_OBJECTS =
 
-benchmark_sphere: CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libGLU.so
-benchmark_sphere: /usr/lib/libGL.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libSM.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libICE.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libX11.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libXext.so
-benchmark_sphere: /usr/lib/libglut.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libXmu.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libXi.so
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libSDLmain.a
-benchmark_sphere: /usr/lib/x86_64-linux-gnu/libSDL.so
-benchmark_sphere: CMakeFiles/benchmark_sphere.dir/build.make
-benchmark_sphere: CMakeFiles/benchmark_sphere.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable benchmark_sphere"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/benchmark_sphere.dir/link.txt --verbose=$(VERBOSE)
+Benchmark_Sphere: CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o
+Benchmark_Sphere: CMakeFiles/Benchmark_Sphere.dir/build.make
+Benchmark_Sphere: /opt/local/lib/libSDLmain.a
+Benchmark_Sphere: /opt/local/lib/libSDL.dylib
+Benchmark_Sphere: CMakeFiles/Benchmark_Sphere.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable Benchmark_Sphere"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Benchmark_Sphere.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/benchmark_sphere.dir/build: benchmark_sphere
-.PHONY : CMakeFiles/benchmark_sphere.dir/build
+CMakeFiles/Benchmark_Sphere.dir/build: Benchmark_Sphere
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/build
 
-CMakeFiles/benchmark_sphere.dir/requires: CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o.requires
-.PHONY : CMakeFiles/benchmark_sphere.dir/requires
+CMakeFiles/Benchmark_Sphere.dir/requires: CMakeFiles/Benchmark_Sphere.dir/Benchmark_Sphere.cpp.o.requires
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/requires
 
-CMakeFiles/benchmark_sphere.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/benchmark_sphere.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/benchmark_sphere.dir/clean
+CMakeFiles/Benchmark_Sphere.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/Benchmark_Sphere.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/clean
 
-CMakeFiles/benchmark_sphere.dir/depend:
-	cd /home/abdellah/Software/OpenGL/Benchmark_Sphere/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdellah/Software/OpenGL/Benchmark_Sphere /home/abdellah/Software/OpenGL/Benchmark_Sphere /home/abdellah/Software/OpenGL/Benchmark_Sphere/build /home/abdellah/Software/OpenGL/Benchmark_Sphere/build /home/abdellah/Software/OpenGL/Benchmark_Sphere/build/CMakeFiles/benchmark_sphere.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/benchmark_sphere.dir/depend
+CMakeFiles/Benchmark_Sphere.dir/depend:
+	cd /Software/OpenGL/Benchmark_Sphere/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Software/OpenGL/Benchmark_Sphere /Software/OpenGL/Benchmark_Sphere /Software/OpenGL/Benchmark_Sphere/Build /Software/OpenGL/Benchmark_Sphere/Build /Software/OpenGL/Benchmark_Sphere/Build/CMakeFiles/Benchmark_Sphere.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/depend
 

@@ -30,19 +30,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/Sprite_Overlay
+CMAKE_SOURCE_DIR = /Software/OpenGL/Sprite_Overlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Sprite_Overlay/build
+CMAKE_BINARY_DIR = /Software/OpenGL/Sprite_Overlay/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Sprite_Overlay/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +63,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles /home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Sprite_Overlay/Build/CMakeFiles /Software/OpenGL/Sprite_Overlay/Build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Sprite_Overlay/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sprite_overlay
+# Target rules for targets named SpriteOverlay
 
 # Build rule for target.
-sprite_overlay: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sprite_overlay
-.PHONY : sprite_overlay
+SpriteOverlay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SpriteOverlay
+.PHONY : SpriteOverlay
 
 # fast build rule for target.
-sprite_overlay/fast:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/build
-.PHONY : sprite_overlay/fast
+SpriteOverlay/fast:
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/build
+.PHONY : SpriteOverlay/fast
 
 sprite.o: sprite.cpp.o
 .PHONY : sprite.o
 
 # target to build an object file
 sprite.cpp.o:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/sprite.cpp.o
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/sprite.cpp.o
 .PHONY : sprite.cpp.o
 
 sprite.i: sprite.cpp.i
@@ -124,7 +127,7 @@ sprite.i: sprite.cpp.i
 
 # target to preprocess a source file
 sprite.cpp.i:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/sprite.cpp.i
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/sprite.cpp.i
 .PHONY : sprite.cpp.i
 
 sprite.s: sprite.cpp.s
@@ -132,7 +135,7 @@ sprite.s: sprite.cpp.s
 
 # target to generate assembly for a file
 sprite.cpp.s:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/sprite.cpp.s
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/sprite.cpp.s
 .PHONY : sprite.cpp.s
 
 sprite_overlay.o: sprite_overlay.cpp.o
@@ -140,7 +143,7 @@ sprite_overlay.o: sprite_overlay.cpp.o
 
 # target to build an object file
 sprite_overlay.cpp.o:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/sprite_overlay.cpp.o
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/sprite_overlay.cpp.o
 .PHONY : sprite_overlay.cpp.o
 
 sprite_overlay.i: sprite_overlay.cpp.i
@@ -148,7 +151,7 @@ sprite_overlay.i: sprite_overlay.cpp.i
 
 # target to preprocess a source file
 sprite_overlay.cpp.i:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/sprite_overlay.cpp.i
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/sprite_overlay.cpp.i
 .PHONY : sprite_overlay.cpp.i
 
 sprite_overlay.s: sprite_overlay.cpp.s
@@ -156,7 +159,7 @@ sprite_overlay.s: sprite_overlay.cpp.s
 
 # target to generate assembly for a file
 sprite_overlay.cpp.s:
-	$(MAKE) -f CMakeFiles/sprite_overlay.dir/build.make CMakeFiles/sprite_overlay.dir/sprite_overlay.cpp.s
+	$(MAKE) -f CMakeFiles/SpriteOverlay.dir/build.make CMakeFiles/SpriteOverlay.dir/sprite_overlay.cpp.s
 .PHONY : sprite_overlay.cpp.s
 
 # Help Target
@@ -165,9 +168,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... SpriteOverlay"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... sprite_overlay"
 	@echo "... sprite.o"
 	@echo "... sprite.i"
 	@echo "... sprite.s"

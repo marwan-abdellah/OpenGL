@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/Basic_Collision/build/CMakeFiles/basic_collision.dir
+/Software/OpenGL/Basic_Collision/Build/CMakeFiles/basic_collision.dir

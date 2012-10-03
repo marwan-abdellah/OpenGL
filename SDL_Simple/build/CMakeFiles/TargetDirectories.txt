@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/SDL_Simple/build/CMakeFiles/sdl_simple.dir
+/Software/OpenGL/SDL_Simple/build/CMakeFiles/SDL_Simple.dir

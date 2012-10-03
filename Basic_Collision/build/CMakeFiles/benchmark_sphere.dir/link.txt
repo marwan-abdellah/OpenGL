@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/benchmark_sphere.dir/Benchmark_Sphere.cpp.o  -o benchmark_sphere -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread 

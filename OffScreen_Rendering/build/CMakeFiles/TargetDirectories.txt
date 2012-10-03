@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles/offscreen_rendering.dir
+/Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles/OFFScreen_Rendering.dir

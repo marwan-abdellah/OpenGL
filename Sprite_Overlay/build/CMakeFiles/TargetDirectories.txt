@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/Sprite_Overlay/build/CMakeFiles/sprite_overlay.dir
+/Software/OpenGL/Sprite_Overlay/Build/CMakeFiles/SpriteOverlay.dir

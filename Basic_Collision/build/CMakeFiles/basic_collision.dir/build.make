@@ -26,19 +26,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/Basic_Collision
+CMAKE_SOURCE_DIR = /Software/OpenGL/Basic_Collision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Basic_Collision/build
+CMAKE_BINARY_DIR = /Software/OpenGL/Basic_Collision/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/basic_collision.dir/depend.make
@@ -51,17 +54,17 @@ include CMakeFiles/basic_collision.dir/flags.make
 
 CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o: CMakeFiles/basic_collision.dir/flags.make
 CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o: ../Basic_Collision.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/Basic_Collision/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/Basic_Collision/Build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o -c /home/abdellah/Software/OpenGL/Basic_Collision/Basic_Collision.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o -c /Software/OpenGL/Basic_Collision/Basic_Collision.cpp
 
 CMakeFiles/basic_collision.dir/Basic_Collision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basic_collision.dir/Basic_Collision.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abdellah/Software/OpenGL/Basic_Collision/Basic_Collision.cpp > CMakeFiles/basic_collision.dir/Basic_Collision.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Software/OpenGL/Basic_Collision/Basic_Collision.cpp > CMakeFiles/basic_collision.dir/Basic_Collision.cpp.i
 
 CMakeFiles/basic_collision.dir/Basic_Collision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_collision.dir/Basic_Collision.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abdellah/Software/OpenGL/Basic_Collision/Basic_Collision.cpp -o CMakeFiles/basic_collision.dir/Basic_Collision.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Software/OpenGL/Basic_Collision/Basic_Collision.cpp -o CMakeFiles/basic_collision.dir/Basic_Collision.cpp.s
 
 CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o.requires:
 .PHONY : CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o.requires
@@ -80,17 +83,6 @@ basic_collision_OBJECTS = \
 basic_collision_EXTERNAL_OBJECTS =
 
 basic_collision: CMakeFiles/basic_collision.dir/Basic_Collision.cpp.o
-basic_collision: /usr/lib/x86_64-linux-gnu/libGLU.so
-basic_collision: /usr/lib/libGL.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libSM.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libICE.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libX11.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libXext.so
-basic_collision: /usr/lib/libglut.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libXmu.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libXi.so
-basic_collision: /usr/lib/x86_64-linux-gnu/libSDLmain.a
-basic_collision: /usr/lib/x86_64-linux-gnu/libSDL.so
 basic_collision: CMakeFiles/basic_collision.dir/build.make
 basic_collision: CMakeFiles/basic_collision.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable basic_collision"
@@ -108,6 +100,6 @@ CMakeFiles/basic_collision.dir/clean:
 .PHONY : CMakeFiles/basic_collision.dir/clean
 
 CMakeFiles/basic_collision.dir/depend:
-	cd /home/abdellah/Software/OpenGL/Basic_Collision/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdellah/Software/OpenGL/Basic_Collision /home/abdellah/Software/OpenGL/Basic_Collision /home/abdellah/Software/OpenGL/Basic_Collision/build /home/abdellah/Software/OpenGL/Basic_Collision/build /home/abdellah/Software/OpenGL/Basic_Collision/build/CMakeFiles/basic_collision.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Software/OpenGL/Basic_Collision/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Software/OpenGL/Basic_Collision /Software/OpenGL/Basic_Collision /Software/OpenGL/Basic_Collision/Build /Software/OpenGL/Basic_Collision/Build /Software/OpenGL/Basic_Collision/Build/CMakeFiles/basic_collision.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/basic_collision.dir/depend
 

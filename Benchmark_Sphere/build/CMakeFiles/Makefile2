@@ -38,53 +38,56 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/Benchmark_Sphere
+CMAKE_SOURCE_DIR = /Software/OpenGL/Benchmark_Sphere
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Benchmark_Sphere/build
+CMAKE_BINARY_DIR = /Software/OpenGL/Benchmark_Sphere/Build
 
 #=============================================================================
-# Target rules for target CMakeFiles/benchmark_sphere.dir
+# Target rules for target CMakeFiles/Benchmark_Sphere.dir
 
 # All Build rule for target.
-CMakeFiles/benchmark_sphere.dir/all:
-	$(MAKE) -f CMakeFiles/benchmark_sphere.dir/build.make CMakeFiles/benchmark_sphere.dir/depend
-	$(MAKE) -f CMakeFiles/benchmark_sphere.dir/build.make CMakeFiles/benchmark_sphere.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/Benchmark_Sphere/build/CMakeFiles  1
-	@echo "Built target benchmark_sphere"
-.PHONY : CMakeFiles/benchmark_sphere.dir/all
+CMakeFiles/Benchmark_Sphere.dir/all:
+	$(MAKE) -f CMakeFiles/Benchmark_Sphere.dir/build.make CMakeFiles/Benchmark_Sphere.dir/depend
+	$(MAKE) -f CMakeFiles/Benchmark_Sphere.dir/build.make CMakeFiles/Benchmark_Sphere.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/Benchmark_Sphere/Build/CMakeFiles  1
+	@echo "Built target Benchmark_Sphere"
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/all
 
 # Include target in all.
-all: CMakeFiles/benchmark_sphere.dir/all
+all: CMakeFiles/Benchmark_Sphere.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/benchmark_sphere.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Benchmark_Sphere/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/benchmark_sphere.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Benchmark_Sphere/build/CMakeFiles 0
-.PHONY : CMakeFiles/benchmark_sphere.dir/rule
+CMakeFiles/Benchmark_Sphere.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Benchmark_Sphere/Build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Benchmark_Sphere.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Benchmark_Sphere/Build/CMakeFiles 0
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/rule
 
 # Convenience name for target.
-benchmark_sphere: CMakeFiles/benchmark_sphere.dir/rule
-.PHONY : benchmark_sphere
+Benchmark_Sphere: CMakeFiles/Benchmark_Sphere.dir/rule
+.PHONY : Benchmark_Sphere
 
 # clean rule for target.
-CMakeFiles/benchmark_sphere.dir/clean:
-	$(MAKE) -f CMakeFiles/benchmark_sphere.dir/build.make CMakeFiles/benchmark_sphere.dir/clean
-.PHONY : CMakeFiles/benchmark_sphere.dir/clean
+CMakeFiles/Benchmark_Sphere.dir/clean:
+	$(MAKE) -f CMakeFiles/Benchmark_Sphere.dir/build.make CMakeFiles/Benchmark_Sphere.dir/clean
+.PHONY : CMakeFiles/Benchmark_Sphere.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/benchmark_sphere.dir/clean
+clean: CMakeFiles/Benchmark_Sphere.dir/clean
 .PHONY : clean
 
 #=============================================================================

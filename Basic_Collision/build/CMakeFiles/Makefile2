@@ -38,19 +38,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/Basic_Collision
+CMAKE_SOURCE_DIR = /Software/OpenGL/Basic_Collision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Basic_Collision/build
+CMAKE_BINARY_DIR = /Software/OpenGL/Basic_Collision/Build
 
 #=============================================================================
 # Target rules for target CMakeFiles/basic_collision.dir
@@ -59,7 +62,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/Basic_Collision/build
 CMakeFiles/basic_collision.dir/all:
 	$(MAKE) -f CMakeFiles/basic_collision.dir/build.make CMakeFiles/basic_collision.dir/depend
 	$(MAKE) -f CMakeFiles/basic_collision.dir/build.make CMakeFiles/basic_collision.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/Basic_Collision/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/Basic_Collision/Build/CMakeFiles  1
 	@echo "Built target basic_collision"
 .PHONY : CMakeFiles/basic_collision.dir/all
 
@@ -69,9 +72,9 @@ all: CMakeFiles/basic_collision.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/basic_collision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Basic_Collision/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Basic_Collision/Build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/basic_collision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/Basic_Collision/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/Basic_Collision/Build/CMakeFiles 0
 .PHONY : CMakeFiles/basic_collision.dir/rule
 
 # Convenience name for target.

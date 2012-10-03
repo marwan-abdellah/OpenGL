@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles/glut_simple.dir
+/Software/OpenGL/GLUT_Simple/Build/CMakeFiles/GLUT_Simple.dir

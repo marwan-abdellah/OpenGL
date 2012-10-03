@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o  -o sdl_simple -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread 

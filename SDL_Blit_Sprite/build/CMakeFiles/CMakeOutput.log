@@ -381,3 +381,621 @@ Linking C executable cmTryCompileExec
 make[1]: Leaving directory `/home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles/CMakeTmp'
 
 
+The system is: Darwin - 10.8.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec882806143/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec882806143.dir/build.make CMakeFiles/cmTryCompileExec882806143.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec882806143.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec882806143.dir/testCCompiler.c.o   -c /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec882806143
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec882806143.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec882806143.dir/testCCompiler.c.o  -o cmTryCompileExec882806143  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2600308387/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2600308387.dir/build.make CMakeFiles/cmTryCompileExec2600308387.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2600308387
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600308387.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2600308387   
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Apple Inc. build 5659)
+ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec2600308387 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2600308387/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2600308387.dir/build.make CMakeFiles/cmTryCompileExec2600308387.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2600308387]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600308387.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2600308387   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin10]
+  ignore line: [Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Apple Inc. build 5659)]
+  link line: [ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec2600308387 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.6.8] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2600308387] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2600308387.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> [/usr/lib]
+  implicit libs: []
+  implicit dirs: [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64;/usr/lib/i686-apple-darwin10/4.2.1;/usr/lib/gcc/i686-apple-darwin10/4.2.1;/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2356035257/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2356035257.dir/build.make CMakeFiles/cmTryCompileExec2356035257.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2356035257.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2356035257.dir/testCXXCompiler.cxx.o -c /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2356035257
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2356035257.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2356035257.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2356035257  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec136810971/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec136810971.dir/build.make CMakeFiles/cmTryCompileExec136810971.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec136810971
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec136810971.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec136810971   
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Apple Inc. build 5659)
+ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec136810971 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec136810971/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec136810971.dir/build.make CMakeFiles/cmTryCompileExec136810971.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec136810971]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec136810971.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec136810971   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin10]
+  ignore line: [Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Apple Inc. build 5659)]
+  link line: [ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec136810971 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem]
+    arg [/usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.6.8] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec136810971] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec136810971.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++]
+  implicit dirs: [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64;/usr/lib/i686-apple-darwin10/4.2.1;/usr/lib/gcc/i686-apple-darwin10/4.2.1;/usr/lib]
+
+
+The system is: Darwin - 10.8.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3768547604/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3768547604.dir/build.make CMakeFiles/cmTryCompileExec3768547604.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3768547604.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3768547604.dir/testCCompiler.c.o   -c /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3768547604
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3768547604.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3768547604.dir/testCCompiler.c.o  -o cmTryCompileExec3768547604  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2971936042/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2971936042.dir/build.make CMakeFiles/cmTryCompileExec2971936042.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2971936042
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2971936042.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2971936042   
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Apple Inc. build 5659)
+ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec2971936042 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2971936042/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2971936042.dir/build.make CMakeFiles/cmTryCompileExec2971936042.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2971936042]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2971936042.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2971936042   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin10]
+  ignore line: [Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Apple Inc. build 5659)]
+  link line: [ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec2971936042 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.6.8] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2971936042] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2971936042.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> [/usr/lib]
+  implicit libs: []
+  implicit dirs: [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64;/usr/lib/i686-apple-darwin10/4.2.1;/usr/lib/gcc/i686-apple-darwin10/4.2.1;/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2983745577/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2983745577.dir/build.make CMakeFiles/cmTryCompileExec2983745577.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2983745577.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2983745577.dir/testCXXCompiler.cxx.o -c /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2983745577
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2983745577.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2983745577.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2983745577  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec991960313/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec991960313.dir/build.make CMakeFiles/cmTryCompileExec991960313.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec991960313
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec991960313.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec991960313   
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Apple Inc. build 5659)
+ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec991960313 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec991960313/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec991960313.dir/build.make CMakeFiles/cmTryCompileExec991960313.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec991960313]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec991960313.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec991960313   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin10]
+  ignore line: [Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Apple Inc. build 5659)]
+  link line: [ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec991960313 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem]
+    arg [/usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.6.8] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec991960313] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec991960313.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++]
+  implicit dirs: [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64;/usr/lib/i686-apple-darwin10/4.2.1;/usr/lib/gcc/i686-apple-darwin10/4.2.1;/usr/lib]
+
+
+The system is: Darwin - 10.8.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec36195415/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec36195415.dir/build.make CMakeFiles/cmTryCompileExec36195415.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec36195415.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec36195415.dir/testCCompiler.c.o   -c /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec36195415
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec36195415.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec36195415.dir/testCCompiler.c.o  -o cmTryCompileExec36195415  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3199786345/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3199786345.dir/build.make CMakeFiles/cmTryCompileExec3199786345.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3199786345
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3199786345.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3199786345   
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Apple Inc. build 5659)
+ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec3199786345 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3199786345/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3199786345.dir/build.make CMakeFiles/cmTryCompileExec3199786345.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3199786345]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3199786345.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3199786345   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin10]
+  ignore line: [Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Apple Inc. build 5659)]
+  link line: [ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec3199786345 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.6.8] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3199786345] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3199786345.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> [/usr/lib]
+  implicit libs: []
+  implicit dirs: [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64;/usr/lib/i686-apple-darwin10/4.2.1;/usr/lib/gcc/i686-apple-darwin10/4.2.1;/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1968996880/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1968996880.dir/build.make CMakeFiles/cmTryCompileExec1968996880.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1968996880.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1968996880.dir/testCXXCompiler.cxx.o -c /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1968996880
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1968996880.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1968996880.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1968996880  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3560656675/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3560656675.dir/build.make CMakeFiles/cmTryCompileExec3560656675.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3560656675
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3560656675.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3560656675   
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Apple Inc. build 5659)
+ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec3560656675 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3560656675/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3560656675.dir/build.make CMakeFiles/cmTryCompileExec3560656675.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3560656675]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3560656675.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3560656675   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin10]
+  ignore line: [Configured with: /var/tmp/gcc/gcc-5659~1/src/configure --disable-checking --enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Apple Inc. build 5659)]
+  link line: [ /usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6.8 -weak_reference_mismatches non-weak -o cmTryCompileExec3560656675 -lcrt1.10.6.o -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem]
+    arg [/usr/libexec/gcc/i686-apple-darwin10/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.6.8] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3560656675] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3560656675.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../../i686-apple-darwin10/4.2.1] ==> [/usr/lib/i686-apple-darwin10/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin10/4.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++]
+  implicit dirs: [/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64;/usr/lib/i686-apple-darwin10/4.2.1;/usr/lib/gcc/i686-apple-darwin10/4.2.1;/usr/lib]
+
+

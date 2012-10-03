@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/SpriteOverlay.dir/sprite_overlay.cpp.o CMakeFiles/SpriteOverlay.dir/sprite.cpp.o  -o SpriteOverlay  -L/usr/X11R6/lib -lGL -lX11 -lGLU -lglut /opt/local/lib/libSDLmain.a /opt/local/lib/libSDL.dylib -framework Cocoa 

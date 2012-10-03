@@ -1,10 +1,10 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o"
-  "sdl_simple.pdb"
-  "sdl_simple"
+  "CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o"
+  "SDL_Simple.pdb"
+  "SDL_Simple"
 )
 
 # Per-language clean rules from dependency scanning.
 FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/sdl_simple.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  INCLUDE(CMakeFiles/SDL_Simple.dir/cmake_clean_${lang}.cmake OPTIONAL)
 ENDFOREACH(lang)

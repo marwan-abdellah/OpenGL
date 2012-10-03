@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/GLS_Sample.dir/GLX_Sample.cpp.o  -o GLS_Sample  -L/usr/X11R6/lib -lGL -lX11 -lGLU -lglut /opt/local/lib/libSDLmain.a /opt/local/lib/libSDL.dylib -framework Cocoa 

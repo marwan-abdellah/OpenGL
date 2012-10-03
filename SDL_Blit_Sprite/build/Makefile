@@ -30,19 +30,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/SDL_Brite_Sprite
+CMAKE_SOURCE_DIR = /Software/OpenGL/SDL_Blit_Sprite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build
+CMAKE_BINARY_DIR = /Software/OpenGL/SDL_Blit_Sprite/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +63,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/SDL_Brite_Sprite/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/SDL_Blit_Sprite/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sdl_brite_sprite
+# Target rules for targets named SDL_Sprite
 
 # Build rule for target.
-sdl_brite_sprite: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdl_brite_sprite
-.PHONY : sdl_brite_sprite
+SDL_Sprite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SDL_Sprite
+.PHONY : SDL_Sprite
 
 # fast build rule for target.
-sdl_brite_sprite/fast:
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/build
-.PHONY : sdl_brite_sprite/fast
+SDL_Sprite/fast:
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/build
+.PHONY : SDL_Sprite/fast
 
-SDL_Brite_Sprite.o: SDL_Brite_Sprite.cxx.o
-.PHONY : SDL_Brite_Sprite.o
+SDL_Blit_Sprite.o: SDL_Blit_Sprite.cxx.o
+.PHONY : SDL_Blit_Sprite.o
 
 # target to build an object file
-SDL_Brite_Sprite.cxx.o:
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/SDL_Brite_Sprite.cxx.o
-.PHONY : SDL_Brite_Sprite.cxx.o
+SDL_Blit_Sprite.cxx.o:
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/SDL_Blit_Sprite.cxx.o
+.PHONY : SDL_Blit_Sprite.cxx.o
 
-SDL_Brite_Sprite.i: SDL_Brite_Sprite.cxx.i
-.PHONY : SDL_Brite_Sprite.i
+SDL_Blit_Sprite.i: SDL_Blit_Sprite.cxx.i
+.PHONY : SDL_Blit_Sprite.i
 
 # target to preprocess a source file
-SDL_Brite_Sprite.cxx.i:
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/SDL_Brite_Sprite.cxx.i
-.PHONY : SDL_Brite_Sprite.cxx.i
+SDL_Blit_Sprite.cxx.i:
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/SDL_Blit_Sprite.cxx.i
+.PHONY : SDL_Blit_Sprite.cxx.i
 
-SDL_Brite_Sprite.s: SDL_Brite_Sprite.cxx.s
-.PHONY : SDL_Brite_Sprite.s
+SDL_Blit_Sprite.s: SDL_Blit_Sprite.cxx.s
+.PHONY : SDL_Blit_Sprite.s
 
 # target to generate assembly for a file
-SDL_Brite_Sprite.cxx.s:
-	$(MAKE) -f CMakeFiles/sdl_brite_sprite.dir/build.make CMakeFiles/sdl_brite_sprite.dir/SDL_Brite_Sprite.cxx.s
-.PHONY : SDL_Brite_Sprite.cxx.s
+SDL_Blit_Sprite.cxx.s:
+	$(MAKE) -f CMakeFiles/SDL_Sprite.dir/build.make CMakeFiles/SDL_Sprite.dir/SDL_Blit_Sprite.cxx.s
+.PHONY : SDL_Blit_Sprite.cxx.s
 
 # Help Target
 help:
@@ -141,12 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... SDL_Sprite"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... sdl_brite_sprite"
-	@echo "... SDL_Brite_Sprite.o"
-	@echo "... SDL_Brite_Sprite.i"
-	@echo "... SDL_Brite_Sprite.s"
+	@echo "... SDL_Blit_Sprite.o"
+	@echo "... SDL_Blit_Sprite.i"
+	@echo "... SDL_Blit_Sprite.s"
 .PHONY : help
 
 

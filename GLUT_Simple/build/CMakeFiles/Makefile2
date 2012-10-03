@@ -38,53 +38,56 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/GLUT_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/GLUT_Simple/Build
 
 #=============================================================================
-# Target rules for target CMakeFiles/glut_simple.dir
+# Target rules for target CMakeFiles/GLUT_Simple.dir
 
 # All Build rule for target.
-CMakeFiles/glut_simple.dir/all:
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/depend
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles  1
-	@echo "Built target glut_simple"
-.PHONY : CMakeFiles/glut_simple.dir/all
+CMakeFiles/GLUT_Simple.dir/all:
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/depend
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/GLUT_Simple/Build/CMakeFiles  1
+	@echo "Built target GLUT_Simple"
+.PHONY : CMakeFiles/GLUT_Simple.dir/all
 
 # Include target in all.
-all: CMakeFiles/glut_simple.dir/all
+all: CMakeFiles/GLUT_Simple.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/glut_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/glut_simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles 0
-.PHONY : CMakeFiles/glut_simple.dir/rule
+CMakeFiles/GLUT_Simple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLUT_Simple/Build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GLUT_Simple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLUT_Simple/Build/CMakeFiles 0
+.PHONY : CMakeFiles/GLUT_Simple.dir/rule
 
 # Convenience name for target.
-glut_simple: CMakeFiles/glut_simple.dir/rule
-.PHONY : glut_simple
+GLUT_Simple: CMakeFiles/GLUT_Simple.dir/rule
+.PHONY : GLUT_Simple
 
 # clean rule for target.
-CMakeFiles/glut_simple.dir/clean:
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/clean
-.PHONY : CMakeFiles/glut_simple.dir/clean
+CMakeFiles/GLUT_Simple.dir/clean:
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/clean
+.PHONY : CMakeFiles/GLUT_Simple.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/glut_simple.dir/clean
+clean: CMakeFiles/GLUT_Simple.dir/clean
 .PHONY : clean
 
 #=============================================================================

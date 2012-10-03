@@ -1,1 +1,1 @@
-/home/abdellah/Software/OpenGL/Benchmark_Sphere/build/CMakeFiles/benchmark_sphere.dir
+/Software/OpenGL/Benchmark_Sphere/Build/CMakeFiles/Benchmark_Sphere.dir

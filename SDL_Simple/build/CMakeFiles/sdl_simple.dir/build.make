@@ -26,88 +26,82 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/SDL_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/SDL_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/SDL_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/SDL_Simple/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/sdl_simple.dir/depend.make
+include CMakeFiles/SDL_Simple.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/sdl_simple.dir/progress.make
+include CMakeFiles/SDL_Simple.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/sdl_simple.dir/flags.make
+include CMakeFiles/SDL_Simple.dir/flags.make
 
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o: CMakeFiles/sdl_simple.dir/flags.make
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o: ../SDL_Simple.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdellah/Software/OpenGL/SDL_Simple/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o -c /home/abdellah/Software/OpenGL/SDL_Simple/SDL_Simple.cxx
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o: CMakeFiles/SDL_Simple.dir/flags.make
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o: ../SDL_Simple.cxx
+	$(CMAKE_COMMAND) -E cmake_progress_report /Software/OpenGL/SDL_Simple/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o -c /Software/OpenGL/SDL_Simple/SDL_Simple.cxx
 
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abdellah/Software/OpenGL/SDL_Simple/SDL_Simple.cxx > CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.i
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Software/OpenGL/SDL_Simple/SDL_Simple.cxx > CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.i
 
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abdellah/Software/OpenGL/SDL_Simple/SDL_Simple.cxx -o CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.s
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Software/OpenGL/SDL_Simple/SDL_Simple.cxx -o CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.s
 
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.requires:
-.PHONY : CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.requires
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.requires:
+.PHONY : CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.requires
 
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.provides: CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.requires
-	$(MAKE) -f CMakeFiles/sdl_simple.dir/build.make CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.provides.build
-.PHONY : CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.provides
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.provides: CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.requires
+	$(MAKE) -f CMakeFiles/SDL_Simple.dir/build.make CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.provides.build
+.PHONY : CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.provides
 
-CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.provides.build: CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o
+CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.provides.build: CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o
 
-# Object files for target sdl_simple
-sdl_simple_OBJECTS = \
-"CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o"
+# Object files for target SDL_Simple
+SDL_Simple_OBJECTS = \
+"CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o"
 
-# External object files for target sdl_simple
-sdl_simple_EXTERNAL_OBJECTS =
+# External object files for target SDL_Simple
+SDL_Simple_EXTERNAL_OBJECTS =
 
-sdl_simple: CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o
-sdl_simple: /usr/lib/x86_64-linux-gnu/libGLU.so
-sdl_simple: /usr/lib/libGL.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libSM.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libICE.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libX11.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libXext.so
-sdl_simple: /usr/lib/libglut.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libXmu.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libXi.so
-sdl_simple: /usr/lib/x86_64-linux-gnu/libSDLmain.a
-sdl_simple: /usr/lib/x86_64-linux-gnu/libSDL.so
-sdl_simple: CMakeFiles/sdl_simple.dir/build.make
-sdl_simple: CMakeFiles/sdl_simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sdl_simple"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sdl_simple.dir/link.txt --verbose=$(VERBOSE)
+SDL_Simple: CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o
+SDL_Simple: CMakeFiles/SDL_Simple.dir/build.make
+SDL_Simple: /opt/local/lib/libSDLmain.a
+SDL_Simple: /opt/local/lib/libSDL.dylib
+SDL_Simple: CMakeFiles/SDL_Simple.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable SDL_Simple"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL_Simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sdl_simple.dir/build: sdl_simple
-.PHONY : CMakeFiles/sdl_simple.dir/build
+CMakeFiles/SDL_Simple.dir/build: SDL_Simple
+.PHONY : CMakeFiles/SDL_Simple.dir/build
 
-CMakeFiles/sdl_simple.dir/requires: CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o.requires
-.PHONY : CMakeFiles/sdl_simple.dir/requires
+CMakeFiles/SDL_Simple.dir/requires: CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o.requires
+.PHONY : CMakeFiles/SDL_Simple.dir/requires
 
-CMakeFiles/sdl_simple.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/sdl_simple.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/sdl_simple.dir/clean
+CMakeFiles/SDL_Simple.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/SDL_Simple.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/SDL_Simple.dir/clean
 
-CMakeFiles/sdl_simple.dir/depend:
-	cd /home/abdellah/Software/OpenGL/SDL_Simple/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdellah/Software/OpenGL/SDL_Simple /home/abdellah/Software/OpenGL/SDL_Simple /home/abdellah/Software/OpenGL/SDL_Simple/build /home/abdellah/Software/OpenGL/SDL_Simple/build /home/abdellah/Software/OpenGL/SDL_Simple/build/CMakeFiles/sdl_simple.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/sdl_simple.dir/depend
+CMakeFiles/SDL_Simple.dir/depend:
+	cd /Software/OpenGL/SDL_Simple/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Software/OpenGL/SDL_Simple /Software/OpenGL/SDL_Simple /Software/OpenGL/SDL_Simple/build /Software/OpenGL/SDL_Simple/build /Software/OpenGL/SDL_Simple/build/CMakeFiles/SDL_Simple.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/SDL_Simple.dir/depend
 

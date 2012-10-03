@@ -30,19 +30,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering
+CMAKE_SOURCE_DIR = /Software/OpenGL/OffScreen_Rendering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering/build
+CMAKE_BINARY_DIR = /Software/OpenGL/OffScreen_Rendering/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/OffScreen_Rendering/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +63,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/OffScreen_Rendering/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/OffScreen_Rendering/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named offscreen_rendering
+# Target rules for targets named OFFScreen_Rendering
 
 # Build rule for target.
-offscreen_rendering: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 offscreen_rendering
-.PHONY : offscreen_rendering
+OFFScreen_Rendering: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OFFScreen_Rendering
+.PHONY : OFFScreen_Rendering
 
 # fast build rule for target.
-offscreen_rendering/fast:
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/build
-.PHONY : offscreen_rendering/fast
+OFFScreen_Rendering/fast:
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/build
+.PHONY : OFFScreen_Rendering/fast
 
 OffScreen_Rendering.o: OffScreen_Rendering.cxx.o
 .PHONY : OffScreen_Rendering.o
 
 # target to build an object file
 OffScreen_Rendering.cxx.o:
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o
 .PHONY : OffScreen_Rendering.cxx.o
 
 OffScreen_Rendering.i: OffScreen_Rendering.cxx.i
@@ -124,7 +127,7 @@ OffScreen_Rendering.i: OffScreen_Rendering.cxx.i
 
 # target to preprocess a source file
 OffScreen_Rendering.cxx.i:
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.i
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.i
 .PHONY : OffScreen_Rendering.cxx.i
 
 OffScreen_Rendering.s: OffScreen_Rendering.cxx.s
@@ -132,7 +135,7 @@ OffScreen_Rendering.s: OffScreen_Rendering.cxx.s
 
 # target to generate assembly for a file
 OffScreen_Rendering.cxx.s:
-	$(MAKE) -f CMakeFiles/offscreen_rendering.dir/build.make CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.s
+	$(MAKE) -f CMakeFiles/OFFScreen_Rendering.dir/build.make CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.s
 .PHONY : OffScreen_Rendering.cxx.s
 
 # Help Target
@@ -141,8 +144,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... OFFScreen_Rendering"
 	@echo "... edit_cache"
-	@echo "... offscreen_rendering"
 	@echo "... rebuild_cache"
 	@echo "... OffScreen_Rendering.o"
 	@echo "... OffScreen_Rendering.i"

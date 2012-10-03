@@ -30,19 +30,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/GLUT_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/GLUT_Simple/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/GLUT_Simple/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +63,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLUT_Simple/Build/CMakeFiles /Software/OpenGL/GLUT_Simple/Build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/GLUT_Simple/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/GLUT_Simple/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named glut_simple
+# Target rules for targets named GLUT_Simple
 
 # Build rule for target.
-glut_simple: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glut_simple
-.PHONY : glut_simple
+GLUT_Simple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLUT_Simple
+.PHONY : GLUT_Simple
 
 # fast build rule for target.
-glut_simple/fast:
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/build
-.PHONY : glut_simple/fast
+GLUT_Simple/fast:
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/build
+.PHONY : GLUT_Simple/fast
 
 GLUT_Simple.o: GLUT_Simple.cpp.o
 .PHONY : GLUT_Simple.o
 
 # target to build an object file
 GLUT_Simple.cpp.o:
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o
 .PHONY : GLUT_Simple.cpp.o
 
 GLUT_Simple.i: GLUT_Simple.cpp.i
@@ -124,7 +127,7 @@ GLUT_Simple.i: GLUT_Simple.cpp.i
 
 # target to preprocess a source file
 GLUT_Simple.cpp.i:
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.i
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.i
 .PHONY : GLUT_Simple.cpp.i
 
 GLUT_Simple.s: GLUT_Simple.cpp.s
@@ -132,7 +135,7 @@ GLUT_Simple.s: GLUT_Simple.cpp.s
 
 # target to generate assembly for a file
 GLUT_Simple.cpp.s:
-	$(MAKE) -f CMakeFiles/glut_simple.dir/build.make CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.s
+	$(MAKE) -f CMakeFiles/GLUT_Simple.dir/build.make CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.s
 .PHONY : GLUT_Simple.cpp.s
 
 # Help Target
@@ -141,8 +144,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... GLUT_Simple"
 	@echo "... edit_cache"
-	@echo "... glut_simple"
 	@echo "... rebuild_cache"
 	@echo "... GLUT_Simple.o"
 	@echo "... GLUT_Simple.i"

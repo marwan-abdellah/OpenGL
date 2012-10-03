@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/offscreen_rendering.dir/OffScreen_Rendering.cxx.o  -o offscreen_rendering -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi 
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/OFFScreen_Rendering.dir/OffScreen_Rendering.cxx.o  -o OFFScreen_Rendering  -L/usr/X11R6/lib -lGL -lX11 -lGLU -lglut /opt/local/lib/libSDLmain.a /opt/local/lib/libSDL.dylib -framework Cocoa 

@@ -1,10 +1,10 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/glut_simple.dir/GLUT_Simple.cpp.o"
-  "glut_simple.pdb"
-  "glut_simple"
+  "CMakeFiles/GLUT_Simple.dir/GLUT_Simple.cpp.o"
+  "GLUT_Simple.pdb"
+  "GLUT_Simple"
 )
 
 # Per-language clean rules from dependency scanning.
 FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/glut_simple.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  INCLUDE(CMakeFiles/GLUT_Simple.dir/cmake_clean_${lang}.cmake OPTIONAL)
 ENDFOREACH(lang)

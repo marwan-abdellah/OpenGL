@@ -30,19 +30,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
+
+# Escaping for special characters.
+EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdellah/Software/OpenGL/SDL_Simple
+CMAKE_SOURCE_DIR = /Software/OpenGL/SDL_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/SDL_Simple/build
+CMAKE_BINARY_DIR = /Software/OpenGL/SDL_Simple/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abdellah/Software/OpenGL/SDL_Simple/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +63,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/SDL_Simple/build/CMakeFiles /home/abdellah/Software/OpenGL/SDL_Simple/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/SDL_Simple/build/CMakeFiles /Software/OpenGL/SDL_Simple/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdellah/Software/OpenGL/SDL_Simple/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Software/OpenGL/SDL_Simple/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sdl_simple
+# Target rules for targets named SDL_Simple
 
 # Build rule for target.
-sdl_simple: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdl_simple
-.PHONY : sdl_simple
+SDL_Simple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SDL_Simple
+.PHONY : SDL_Simple
 
 # fast build rule for target.
-sdl_simple/fast:
-	$(MAKE) -f CMakeFiles/sdl_simple.dir/build.make CMakeFiles/sdl_simple.dir/build
-.PHONY : sdl_simple/fast
+SDL_Simple/fast:
+	$(MAKE) -f CMakeFiles/SDL_Simple.dir/build.make CMakeFiles/SDL_Simple.dir/build
+.PHONY : SDL_Simple/fast
 
 SDL_Simple.o: SDL_Simple.cxx.o
 .PHONY : SDL_Simple.o
 
 # target to build an object file
 SDL_Simple.cxx.o:
-	$(MAKE) -f CMakeFiles/sdl_simple.dir/build.make CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.o
+	$(MAKE) -f CMakeFiles/SDL_Simple.dir/build.make CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.o
 .PHONY : SDL_Simple.cxx.o
 
 SDL_Simple.i: SDL_Simple.cxx.i
@@ -124,7 +127,7 @@ SDL_Simple.i: SDL_Simple.cxx.i
 
 # target to preprocess a source file
 SDL_Simple.cxx.i:
-	$(MAKE) -f CMakeFiles/sdl_simple.dir/build.make CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.i
+	$(MAKE) -f CMakeFiles/SDL_Simple.dir/build.make CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.i
 .PHONY : SDL_Simple.cxx.i
 
 SDL_Simple.s: SDL_Simple.cxx.s
@@ -132,7 +135,7 @@ SDL_Simple.s: SDL_Simple.cxx.s
 
 # target to generate assembly for a file
 SDL_Simple.cxx.s:
-	$(MAKE) -f CMakeFiles/sdl_simple.dir/build.make CMakeFiles/sdl_simple.dir/SDL_Simple.cxx.s
+	$(MAKE) -f CMakeFiles/SDL_Simple.dir/build.make CMakeFiles/SDL_Simple.dir/SDL_Simple.cxx.s
 .PHONY : SDL_Simple.cxx.s
 
 # Help Target
@@ -141,9 +144,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... SDL_Simple"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... sdl_simple"
 	@echo "... SDL_Simple.o"
 	@echo "... SDL_Simple.i"
 	@echo "... SDL_Simple.s"
